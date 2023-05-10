@@ -12,6 +12,7 @@ import java.util.concurrent.ThreadLocalRandom;
 public class FakeHelloDataResolver {
     @DgsQuery
     public List<Hello> allHellos() {
+
         return FakeHelloDataSource.HELLO_LIST;
     }
 
